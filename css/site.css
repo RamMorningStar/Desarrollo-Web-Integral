@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: rgb(238, 244, 247);
+    background-image: url(../media/triangles-top.svg), url(../media/triangles-bottom.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    padding-top: 140px;
+    color: #44566c;
+}
+
+.maint-content{
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+}
+
